@@ -27,24 +27,16 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 400px;
   height: 310px;
   background-color: #fff;
 }
 .loginAndRegBox .title {
   height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .loginAndRegBox .layui-form {
   padding: 0 30px;
@@ -63,4 +55,4 @@ body {
 .loginAndRegBox .layui-form a {
   float: right;
   font-size: 12px;
-}
+}/*# sourceMappingURL=login.css.map */
