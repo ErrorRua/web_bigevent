@@ -29,6 +29,7 @@ a {
   align-items: center;
 }
 .layui-side .userinfo #wel {
+  max-width: 110px;
   margin-left: 5px;
   line-height: 60px;
   white-space: nowrap;
